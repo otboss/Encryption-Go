@@ -41,7 +41,7 @@ func EncryptText(key string, plaintext string) (string, error) {
 	return fmt.Sprintf("%x", ciphertext), nil
 }
 
-//DecryptText : Decrypts the plaintext provided
+//DecryptText : Decrypts the ciphertext provided
 func DecryptText(key string, ciphertext string) (string, error) {
 	var plaintext string
 	var err error
